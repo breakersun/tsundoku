@@ -43,7 +43,7 @@ bucket_name = "tsundoku"
 binding = "DB"
 database_name = "tsundoku"
 # Filled in by `wrangler d1 create tsundoku`, or by scripts/setup.sh.
-database_id = "01000d35-b836-474b-a415-ec0e79a4a44c"
+database_id = "58a5afb6-22ca-4340-ba74-13b1e0bf9e14"
 
 # Nightly housekeeping: abort stale multipart uploads, sweep orphans, log usage.
 [triggers]
@@ -63,5 +63,5 @@ ALLOW_KOSYNC_REGISTER = "0"
 # A custom domain is strongly recommended. Some OPDS clients dislike
 # workers.dev subdomains, and TLS is non-negotiable because auth is HTTP Basic.
 [[routes]]
-pattern = "tsundoku.pid1.space"
+pattern = "books.888521.top"
 custom_domain = true
